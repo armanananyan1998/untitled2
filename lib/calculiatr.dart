@@ -21,6 +21,7 @@ class _calculiatrState extends State<calculiatr> {
               padding: EdgeInsets.all(10.0),
               child: Text(
                 "0",
+                textAlign: TextAlign.right,
                 style: TextStyle(color: Colors.white),
               ),
             )
